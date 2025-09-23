@@ -1,0 +1,30 @@
+p {
+   color: blue;
+   font-size: 16px;
+}
+.red-text{
+   color: red;
+}
+
+#green-text{
+   color: green;
+}
+
+#nambber{
+    color: yellow;
+    background-color: black;
+}
+
+ .black{
+    color: blue;  
+    background-color: cadetblue;
+}
+
+div{
+    color: brown;
+    background-color: aquamarine;
+}
+
+
+
+
