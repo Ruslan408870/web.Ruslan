@@ -8,13 +8,14 @@ p {
    color: #FF5733;
 }
 
- 
- 
  .text {
    font-size: 2em; 
 }
 
- 
+.text1 {
+   font-size: 7rem; 
+}
+
 .box2 {
    width: 50%; 
 }
