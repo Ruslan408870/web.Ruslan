@@ -1,0 +1,28 @@
+ 
+ .box {
+   width: 100px;
+   height: 100px;
+}   
+ 
+p {
+   color: #FF5733;
+}
+
+ 
+ 
+ .text {
+   font-size: 2em; 
+}
+
+ 
+.box2 {
+   width: 50%; 
+}
+
+p {
+   color: rgb(255, 87, 51); 
+} 
+
+p {
+   color: rgba(255, 87, 99, 0.6); 
+} 
