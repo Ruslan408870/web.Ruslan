@@ -1,0 +1,36 @@
+p {
+    color: blue;
+ } 
+ 
+ 
+ h1 {
+    font-family: 'Arial', sans-serif;
+ } 
+ .highlight {
+    background-color: yellow;
+ }
+ 
+ div {
+    text-align: center;
+ } 
+ 
+ h2 {
+    font-weight: bold;
+ }
+ 
+ .class {
+    border: 1px solid black;
+    padding: 10px;
+    margin: 5px;
+ }
+ 
+ .collection {
+    border: 2px solid red;
+    padding: 15px;
+    margin: 12px;
+    width: 200px;
+    height: 100px;
+    overflow: scroll;
+    font-size: 20px;
+    scrollbar-width: thin;
+ }
