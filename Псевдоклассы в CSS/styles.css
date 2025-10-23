@@ -1,0 +1,35 @@
+
+   .block {
+      background-color: lightblue;
+      margin: 10px 0;
+      padding: 10px;
+    }
+    
+   .button:hover {
+      background-color: #0056b3;
+   }
+    
+   .input:focus {
+      border-color: red;
+   }
+   
+   .list {
+      list-style: none;
+      padding: 0;
+   }
+   
+   .list__item {
+      padding: 10px;
+      border: 1px solid #ccc;
+      margin-bottom: 5px;
+   }
+   
+   .list-item:first-child {
+      font-weight: bold;
+   }
+   
+   .list-item:last-child {
+      color: #ff0000;
+   }
+   
+   
