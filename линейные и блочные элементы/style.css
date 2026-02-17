@@ -53,3 +53,14 @@ h2 {
    display: block;
    margin: auto;
 }
+
+.block-to-inline {
+   display: inline;
+}
+
+
+.inline {
+     background-color: lightgreen;
+     margin: 0 5px;
+     padding: 5px;
+ }
