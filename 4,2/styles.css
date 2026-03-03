@@ -1,0 +1,143 @@
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+.block {
+  display: block;
+  background: lightblue;
+  margin: 10px 0;
+  padding: 10px;
+}
+
+.inline {
+  display: inline;
+  background: lightgreen;
+  margin: 10px 5px 10px 0;
+  padding: 10px;
+}
+
+.flex {
+  display: flex;
+  background: lightcoral;
+  margin: 10px 0;
+  padding: 10px;
+}
+
+
+.container1 {
+  margin: 20px 0;
+  padding: 10px;
+  background: #eee;
+  display: flex;
+  flex-wrap: wrap; 
+}
+
+.container1 .item {
+  background: orange;
+  padding: 20px;
+  margin: 10px;
+  color: white;
+  text-align: center;
+}
+
+
+.container3 {
+  flex-flow: row wrap;
+  height: 150px;
+}
+
+
+.container4 {
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+}
+
+
+.container5 {
+  display: flex;
+}
+
+.item1 {
+  flex: 1 1 100px;
+  background: red;
+  margin: 10px;
+  padding: 20px;
+  color: white;
+  text-align: center;
+}
+
+.item2 {
+  flex: 2 1 100px;
+  background: green;
+  margin: 10px;
+  padding: 20px;
+  color: white;
+  text-align: center;
+}
+
+.item3 {
+  flex: 1 1 150px;
+  background: blue;
+  margin: 10px;
+  padding: 20px;
+  color: white;
+  text-align: center;
+}
+
+
+.container:nth-of-type(6) {
+  display: flex;
+}
+
+.first {
+  flex: 0 0 50%;
+  background: salmon;
+  padding: 20px;
+  margin: 10px;
+}
+
+.second {
+  flex: 1;
+  background: lightblue;
+  padding: 20px;
+  margin: 10px;
+}
+
+.third {
+  flex: 0 0 100px;
+  background: lightgreen;
+  padding: 20px;
+  margin: 10px;
+}
+
+
+.nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #333;
+  padding: 20px;
+}
+
+.nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+}
+
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.card {
+  flex: 1 1 200px;
+  background: white;
+  margin: 10px;
+  padding: 20px;
+  text-align: center;
+}
