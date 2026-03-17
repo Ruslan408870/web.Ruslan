@@ -1,0 +1,76 @@
+.body{
+font-family: Arial;
+margin:40px;
+}
+
+.header{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   background: white;
+   border:1px solid#ddd;
+   padding:15px;
+}
+
+.Logo{
+font-weight: bold;
+font-size: 18px;
+}
+
+.nav a{
+margin:10px;
+text-decoration: none;
+color:black;
+}
+
+.btn{
+padding:8px 14px;
+background:black;
+color:white;
+border-radius:5px
+border none;
+}
+/*  */
+.search{
+padding:6px;
+border-radius:5px;
+border: 1px solid gray;
+}
+
+.search2{
+padding:6px 10px;
+border-radius: 20px;
+border: none;
+}
+
+.header1{
+background: white;
+border: 1px solid #ddd;
+}
+
+.header2{
+background: white;
+gap: 20px;
+}
+
+.header3{
+background: white;
+border-bottom: 2px solid #eee;
+}
+
+.header4{
+background:linear-gradient(90deg#081a2f,#0b2f55);
+color: white;
+}
+
+.header4 nav a{
+color:white
+}
+
+.header5{
+background: linear-gradient(90deg#081a2f,#0b2f55);
+}
+
+.header5 nav a{
+   color:white;
+}
