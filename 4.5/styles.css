@@ -1,0 +1,109 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0 20px;
+}
+
+.container{
+    position: relative;
+}
+
+.Element1{
+    position: static;
+    width: 200px;
+    height: 100px;
+    background-color: lightblue;
+}
+
+
+.Element2{
+    position: relative;
+    top: 20px;
+    left: 30px;
+    background-color: lightcoral;
+       }
+       
+
+.Element3{
+    position: absolute;
+    background-color: lightblue;
+}
+
+.Element4{
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
+
+
+
+
+
+p {
+   text-align: justify;
+   position: relative;
+   top: 20px;
+   right: 30px;
+   bottom: 10px;
+   left: 30px;
+}
+
+.block{
+    position: relative;
+}
+
+.HelloWorld1{
+    top: 10;
+    right: 30px;
+    bottom: 20px;
+    left: 40px;
+}
+
+
+
+
+section {
+    margin-bottom: 100px;
+}
+
+.box {
+    width: 150px;
+    height: 80px;
+    background: lightblue;
+    border: 2px solid blue;
+    margin: 10px 0;
+}
+
+
+.static {
+    position: static;
+}
+
+
+.relative {
+    position: relative;
+    top: 10px;
+    left: 20px;
+    background: lightgreen;
+}
+
+
+.parent {
+    position: relative;
+    height: 150px;
+    background: #eee;
+}
+
+.absolute {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: pink;
+}
+
+.sticky {
+    position: sticky;
+    top: 0;
+    background: yellow;
+    padding: 10px;
+}
