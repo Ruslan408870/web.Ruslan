@@ -1,0 +1,364 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+
+.cards{
+    display: grid;
+    gap: 20px;
+    grid-template-columns:repeat(3, 1fr);
+    justify-content: center;
+    margin-bottom: 30px;
+    margin-right: 30px;
+    width: 730px;
+}
+
+.card1{
+    background-color: #E1EDE6;
+    width: 350px;
+    height: 730px;
+    margin: 20px 20px 20px 20px;
+}
+.author1{
+    color: #86928B;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 100%;
+    margin: 20px 197px 10px 20px;
+}
+
+.title1{
+    color: #2C2D35;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 100%;
+    margin: 10px 20px 8px 20px;
+}
+
+.materials1 {
+    color: #2C2D35;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 100%;
+    margin: 8px 20px 30px 20px;
+}
+
+.price1 {
+    width: 127px;
+    height: 28px;
+    color: #598D66;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 100%;
+    margin: 30px 208px 20px 20px;
+}
+
+.btn2 {
+    border: 1px solid #598D66;
+    color: #598D66;
+    background-color: transparent;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 100%;
+    padding: 14,5px 81,5;
+    width: 310px;
+    height: 65px;
+        margin-left: 20px;
+
+}
+.card2{
+    width: 350px;
+    height: 730px;
+    background-color: #E1EDE6;
+    margin: 20px 20px 20px 20px;
+}
+.author2{
+    color: #86928B;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 100%;
+    margin: 20px 197px 10px 20px;
+}
+
+.title2{
+    color: #2C2D35;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 100%;
+    margin: 10px 20px 8px 20px;
+}
+
+.materials2 {
+    color: #2C2D35;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 100%;
+    margin: 8px 20px 30px 20px;
+}
+
+.price2 {
+    width: 127px;
+    height: 28px;
+    color: #598D66;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 100%;
+    margin: 30px 208px 20px 20px;
+}
+
+
+.btn2 {
+    border: 1px solid #598D66;
+    color: #598D66;
+    background-color: transparent;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 100%;
+    padding: 14,5px 81,5;
+    width: 310px;
+    height: 65px;
+        margin-left: 20px;
+
+}
+
+
+.card3{
+    width: 350px;
+    height: 730px;
+    background-color: #E1EDE6;
+    margin: 20px 20px 20px 20px;
+}
+.author3{
+    color: #86928B;
+    font-weight: 500px;
+    font-size: 18px;
+    line-height: 100%;
+    margin: 20px 190px 11px 20px;
+}
+
+.title3{
+    color: #2C2D35;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 100%;
+    margin: 10px 20px 12px 20px;
+}
+
+.materials3{
+    color: #2C2D35;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 100%;
+    margin: 8px 20px 0px 20px;
+}
+
+.price3{
+    width: 127px;
+    height: 28px;
+    color: #598D66;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 100%;
+    margin: 30px 208px 20px 20px;
+}
+
+.btn2 {
+    border: 1px solid #598D66;
+    color: #598D66;
+    background-color: transparent;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 100%;
+    padding: 14,5px 81,5;
+    width: 310px;
+    height: 65px;
+        margin-left: 20px;
+
+}
+
+
+.card4{
+    background-color: #E1EDE6;
+    width: 350px;
+    height: 730px;
+    margin: 20px 20px 20px 20px;
+}
+.author4{
+    color: #86928B;
+    width: 96px;
+    height: 21px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 100%;
+    margin: 20px 234px 10px 20px;
+}
+
+.title4{
+    color: #2C2D35;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 100%;
+    margin: 10px 20px 8px 20px;
+}
+
+.materials4{
+    color: #2C2D35;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 100%;
+    margin: 8px 20px 30px 20px;
+}
+
+.price4{
+    width: 127px;
+    height: 28px;
+    color: #598D66;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 100%;
+    margin: 30px 207px 20px 20px;
+}
+
+.btn2 {
+    border: 1px solid #598D66;
+    color: #598D66;
+    background-color: transparent;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 100%;
+    padding: 14,5px 81,5;
+    width: 310px;
+    height: 65px;
+        margin-left: 20px;
+
+}
+
+
+.card5{
+    background-color: #E1EDE6;
+    width: 350px;
+    height: 730px;
+    margin: 20px 20px 20px 20px;
+}
+.author5{
+    color: #86928B;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 100%;
+    margin: 20px 197px 10px 20px;
+}
+
+.title5{
+    color: #2C2D35;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 100%;
+    margin: 10px 20px 8px 20px;
+}
+
+.materials5{
+    color: #2C2D35;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 100%;
+    margin: 8px 20px 30px 20px;
+}
+
+.price5{
+    width: 127px;
+    height: 28px;   
+    color: #598D66;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 100%;
+    margin: 30px 208px 20px 20px;
+}
+
+.btn2{
+    border: 1px solid #598D66;
+    color: #598D66;
+    background-color: transparent;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 100%;
+    padding: 14,5px 81,5;
+    width: 310px;
+    height: 65px;
+        margin-left: 20px;
+
+}
+
+.card6{
+    background-color: #E1EDE6;
+    width: 350px;
+    height: 730px;
+    margin: 20px 20px 20px 20px;
+}
+.author6{
+    color: #86928B;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 100%;
+    margin: 20px 197px 10px 20px;
+}
+
+.title6{
+    color: #2C2D35;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 100%;
+    margin: 10px 20px 8px 20px;
+}
+
+.materials6{
+    color: #2C2D35;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 100%;
+    margin: 8px 20px 30px 20px;
+}
+
+.price6{
+    width: 127px;
+    height: 28px;
+    color: #598D66;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 100%;
+    margin: 30px 208px 20px 20px;
+}
+
+.btn2 {
+    border: 1px solid #598D66;
+    color: #598D66;
+    background-color: transparent;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 100%;
+    padding: 14,5px 81,5;
+    width: 310px;
+    height: 65px;
+    margin-left: 20px;
+}
+
+
+.jungles{
+    margin: 20px 20px 0px 20px;
+}
+
+.women{
+    margin: 20px 20px 0px 20px;
+}
+.treatment{
+    margin: 20px 20px 0px 20px;
+}
+.outdoor{
+    margin: 20px 20px 0px 20px;
+}
+.birds{
+    margin: 20px 20px 0px 20px;
+}
+.sea{
+    margin: 20px 20px 0px 20px;
+}
+
