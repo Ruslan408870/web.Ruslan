@@ -1,0 +1,29 @@
+@font-face {
+  font-family: "MyFont";
+  src: url("./static/Condensed-Bold.ttf") format("truetype");
+}
+
+body {
+  background-color: #f5f5f5;
+  color: rebeccapurple;
+  margin: 30px;
+}
+
+h1 {
+    font-family: "Roboto", Arial, sans-serif;
+    font-size: 40px;     
+    font-weight: 700;    
+    font-style: italic; 
+}
+
+h2 {
+    font-family: "Roboto", Arial, sans-serif;
+    font-size: 40px;      
+    font-weight: 700;    
+    font-style: italic;   
+}
+p {
+  font-family: "MyFont", Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  line-height: 1.6;
+        }
