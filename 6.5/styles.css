@@ -1,0 +1,41 @@
+.box {
+   padding: 20px;
+   border: 1px solid #ccc;
+   position: relative;
+}
+
+.box-element {
+   font-weight: bold;
+   color: #ff0000;
+}
+
+
+
+.box-element__paragraph{
+   font-size: 2em;
+   font-weight: bold;
+   color: #ff0000;
+}
+
+.box-element__TED {
+   font-size: 2em;
+   color: #ff0000;
+}
+
+h1 {
+  content: "→";
+  margin-left: 10px;
+  color: red;
+  font-weight: bold;
+}
+
+h2{
+  content: "$";
+  margin-left: 10px;
+  color: blue;
+  font-weight: bold;
+}
+
+
+
+
