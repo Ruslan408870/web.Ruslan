@@ -1,54 +1,44 @@
 
-let age = 10;
+let userNumber1 = Number(prompt("Введите число для Задания 1:"));
 
-if (age >= 11) {
-   console.log("Число больше 10.");
+if (userNumber1 > 10) {
+   console.log("Число больше 10");
 } else {
-   console.log("Число меньше или равно 10.");
-};
-
+   console.log("Число меньше или равно 10");
+}
 
 
 
 let userConfirmed = confirm("Хотите ли вы удалить файл?");
 
 if (userConfirmed) {
-   console.log("Файл удален.");
+   console.log("Файл удален");
 } else {
-   console.log("Удаление отменено.");
-};
-
-
-
-let num = prompt("Введите ваш возраст:");
-
-num = Number(num);
-
-if (num < 18) {
-    alert("Вы еще подросток");
-} else if (num >= 18 && num <= 30) {
-    alert("Вы молодой взрослый");
-} else {
-    alert("Вы взрослый");
+   console.log("Удаление отменено");
 }
 
 
 
-let isStudent = true;
-let grade = 22;
+let ageInput = prompt("Введите ваш возраст:");
+let age = Number(ageInput);
 
-if (isStudent) {
-   if (grade > 2) {
-       console.log("Четное число.");
-   } else {
-       console.log("Нечетное число.");
-   }
+if (age < 18) {
+    console.log("Вы еще подросток");
+} else if (age >= 18 && age <= 30) {
+    console.log("Вы молодой взрослый");
+} else {
+    console.log("Вы взрослый");
 }
 
 
+let userNumber4 = Number(prompt("Введите число для проверки на четность:"));
 
-const input = prompt("Введите день недели (число от 1 до 7):");
-const dayNumber = Number(input);
+let evenOrOdd = (userNumber4 % 2 === 0) ? "Четное число" : "Нечетное число";
+console.log(evenOrOdd);
+
+
+const inputDay = prompt("Введите день недели (число от 1 до 7):");
+const dayNumber = Number(inputDay);
 
 switch (dayNumber) {
   case 1:
@@ -77,6 +67,7 @@ switch (dayNumber) {
 }
 
 
+
 const num1 = Number(prompt("Введите первое число:"));
 const num2 = Number(prompt("Введите второе число:"));
 
@@ -88,47 +79,30 @@ if (num1 === num2) {
 }
 
 
+const inputMonth = prompt("Введите номер месяца (от 1 до 12):");
+const monthNumber = Number(inputMonth);
 
-const inputу = prompt("Введите времена года (число от 1 до 12):");
-const Number = Number(inputу);
-
-switch (Number) {
+switch (monthNumber) {
+  case 12:
   case 1:
-    console.log("Январь");
-    break;
   case 2:
-    console.log("Февраль");
+    console.log("Зима");
     break;
   case 3:
-    console.log("Март");
-    break;
   case 4:
-    console.log("Апрель");
-    break;
   case 5:
-    console.log("Май");
+    console.log("Весна");
     break;
   case 6:
-    console.log("Июнь");
-    break;
   case 7:
-    console.log("Июль");
-    break;
   case 8:
-    console.log("Август");
+    console.log("Лето");
     break;
-    case 9:
-    console.log("Сеньтябрь");
+  case 9:
+  case 10:
+  case 11:
+    console.log("Осень");
     break;
-    case 10:
-    console.log("Октябрь");
-    break;
-    case 11:
-    console.log("Ноябрь");
-    break;
-    case 12:
-    console.log("Декабрь");
-    break;
-
-    
+  default:
+    console.log("Некорректное значение месяца");
 }
